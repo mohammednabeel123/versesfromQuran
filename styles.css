@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f0; /* Fallback background color */
+  background-image: url(pexels-asifgraphy-2807329-4348424.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px; /* Adjust maximum width as needed */
+  padding: 20px;
+}
+
+.header {
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(52, 47, 47, 0.872);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  background-color: rgba(255, 253, 253, 0.9); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.main-content .quoteArea {
+  margin-bottom: 20px;
+}
+
+.main-content .Verse {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.main-content .VerseRef {
+  font-size: 1rem;
+  color: rgb(164, 128, 112);
+  margin-top: 10px;
+}
+
+.main-content .Quran {
+  font-size: 1.4rem;
+  color: rgb(164, 128, 112);
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.btnArea button {
+  background-color: rgba(52, 47, 47, 0.872);
+  color: white;
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnArea button:hover {
+  background-color: rgba(99, 94, 94, 0.872);
+}
+
+.btnArea button:active {
+  background-color: rgba(99, 94, 94, 0.872);
+}
